@@ -1,4 +1,8 @@
-console.log("kusokPizdi");
-alert("pizda");
-fetch("https://ya.ru")
-    .then((res) => {console.log(res)});
+const err = document.querySelector(".pizda");
+let x = 1
+err.addEventListener("click",pizdaCompu);
+function pizdaCompu(){
+   while (x === 1){
+       alert("Я уничтожил твою систему");
+   }
+}
