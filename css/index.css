@@ -3,13 +3,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("https://avatars.mds.yandex.net/get-pdb/1780055/42efcfb6-0e6a-4f9e-ac2b-e199bbf508cd/orig");
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: red; }
-
+  color: #00205F; }
+.header{
+  z-index: 2;
+}
 .main {
+  z-index: 2;
   width: 60%;
   height: 100vh;
   display: flex;
@@ -25,3 +28,9 @@ body {
 
 .pizda:hover {
   color: whitesmoke; }
+.kitty{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
